@@ -1,26 +1,26 @@
-# Basic template with Eleventy, LiquidJS & Sass processing
+# Anything that can compose a website template with Eleventy, Liquid & Sass processing.
 
 ## Folder structure
 
-- pages in /src
-- Sass files in /src/sass
+- templates in /src
 - layouts in /src/_layouts
 - includes in /src/_includes
 - Json files in /src/_data
-- images & JavaScripts in /assets
+- Sass files in /src/sass
+- images & JS in /assets
 
 ## Page layout
 
 - _layouts/base.liquid: head code + DecapCMS scripts
 - _layouts/default.liquid: HTML5 structure
-- _includes/header.liquid with Primary navigation
-- _includes/aside.liquid with Secondary navigation
-- _includes/footer.liquid
+- _includes/navPrimary.liquid with primary navigation
+- _includes/navSecondary.liquid with secondary navigation
+- _includes/navFooter.liquid with footer navigation
+- _includes/copyright.liquid to include in footer landmark
 
 ## Responsive navbar
 
-- responsive mobile menu with CSS without JavaScript from [LogRocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/), without classes
-- add tags: primary in frontmatter
+- tags: add primary, secondary or footer in frontmatter
 
 ## Package.json scripts
 

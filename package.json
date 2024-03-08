@@ -1,7 +1,7 @@
 {
-    "name": "21-Sass",
-    "version": "2.1.0",
-    "description": "Basic template with Eleventy, LiquidJS & Sass processing",
+    "name": "30-main-template",
+    "version": "1.0.0",
+    "description": "Anything that can compose a website template with Eleventy, Liquid & Sass processing.",
     "main": "eleventy.config.js",
     "scripts": {
         "watch:eleventy": "npx @11ty/eleventy --serve",

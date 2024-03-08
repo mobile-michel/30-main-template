@@ -1,8 +1,7 @@
 ---
 title: About Us
-description: Basic template with Eleventy, LiquidJS & Sass processing.
+description: Learn everything about the company.
 layout: default
-tags: primary
+tags: [primary, footer]
+date: 2024-01-03
 ---
-
-The first paragraph with **{{layout}}** layout.

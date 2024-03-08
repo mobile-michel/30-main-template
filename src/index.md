@@ -1,8 +1,7 @@
 ---
 title: Welcome
-description: Basic template with Eleventy, LiquidJS & Sass processing.
+description: Our company is your's...
 layout: default
-tags: primary
+tags: [primary, footer]
+date: 2024-01-01
 ---
-
-The first paragraph with **{{layout}}** layout.

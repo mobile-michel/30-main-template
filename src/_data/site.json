@@ -1,13 +1,10 @@
 {
-    "name": "21-sass",
-    "description": "Eleventy 2.0.1, Liquid & Sass processing",
-    "url": "",
+    "name": "30-main-template",
+    "description": "Anything that can compose a website template with Eleventy, Liquid & Sass processing.",
+    "github": "https://github.com/mobile-michel/30-main-template",
+    "netlify": "",
     "authorName": "Michel Maillard",
     "authorUrl": "https://michelmaillard.ch/",
     "favicon": "https://11ty.recipes/images/meta/favicon.svg",
-    "css": "style.css",
-    "css1": "https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css",
-    "css2": "https://classless.de/classless.css",
-    "css3": "https://unpkg.com/mvp.css",
-    "css4": "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.lime.min.css"
+    "css": "style.css"
 }

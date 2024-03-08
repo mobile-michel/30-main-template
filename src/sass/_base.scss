@@ -1,0 +1,20 @@
+/* Use the alternative box model */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove the default :focus outline */
+*:focus {
+    outline: none;
+}
+
+/* Show a custom outline on :focus-visible */
+*:focus-visible {
+    outline: 4px solid var(--color-shades-dark);
+    outline-offset: 4px;
+}
+
+body {
+    font-family: Segoe UI, system-ui, -apple-system, sans-serif;
+    font-size: 1.6rem;
+}

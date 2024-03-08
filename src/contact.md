@@ -1,8 +1,7 @@
 ---
 title: Contact
-description: Basic template with Eleventy, LiquidJS & Sass processing.
+description: This is the contact page.
 layout: default
-tags: primary
+tags: [primary, footer]
+date: 2024-01-04
 ---
-
-The first paragraph with **{{layout}}** layout.

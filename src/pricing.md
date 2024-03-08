@@ -1,8 +1,7 @@
 ---
 title: Pricing
-description: Basic template with Eleventy, LiquidJS & Sass processing.
+description: Our price start low & grow with you.
 layout: default
 tags: primary
+date: 2024-01-02
 ---
-
-The first paragraph with **{{layout}}** layout.

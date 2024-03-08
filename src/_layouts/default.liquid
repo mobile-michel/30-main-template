@@ -1,10 +1,20 @@
 ---
 layout: base
 ---
-{% include 'header' %}
+<header role="banner">
+    {% include 'navPrimary' %}
+</header>
 <main>
+    <aside role="complementary">
+        {% include 'navSecondary' %}
+    </aside>
     <h1>{{ title }}</h1>
-    <p>{{ description }}</p>
-    {{ content }}
+    <section>
+        {% if description %}<p>{{ description }}</p>{% endif %}
+        {{ content }}
+    </section>
 </main>
-{% include 'footer' %}
+<footer role="contentinfo">
+    {% include 'navFooter' %}
+    {% include 'copyright' %}
+</footer>
