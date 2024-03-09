@@ -5,11 +5,14 @@ layout: base
     {% include 'navPrimary' %}
 </header>
 <main>
+    {% if navSecondary %}
     <aside role="complementary">
         {% include 'navSecondary' %}
     </aside>
+    {% endif %}
     <h1>{{ title }}</h1>
-    <section>
+    <section aria-labelledby="{{ title }}">
+        <h2 id="{{ title }}">{{ title }}</h2>
         {% if description %}<p>{{ description }}</p>{% endif %}
         {{ content }}
     </section>

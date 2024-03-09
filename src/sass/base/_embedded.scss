@@ -1,0 +1,14 @@
+/************************/
+/* 2. base/embedded */
+/************************/
+
+// embedded content: img, embed, object, param, video, audio, source, track, canvas, map, area.
+
+
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--standard-border-radius);
+}

@@ -1,0 +1,37 @@
+/************************************/
+/* Simple.css v2.3.0 (7 March 2024) */
+/************************************/
+
+@charset "UTF-8";
+
+// 1. Abstracts
+@use 'abstracts/variables';	// global variables
+@use 'abstracts/colors';	// global colors with calculations
+
+// 2. Base
+@use 'base/reset';			// reset
+@use 'base/textContent';	// grouping content: p, hr, br, pre, blockquote, ol, ul, li, dl, dt, dd, figure, figcaption, div.
+@use 'base/textSemantic';	// text-level semantics: a, em, strong, small, s, cite, q, dfn, abbr, time, code, var, samp, kbd, sub, sup.
+@use 'base/embedded';		// embedded content: img, embed, object, param, video, audio, source, track, canvas, map, area.
+@use 'base/table';			// tables: table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th.
+@use 'base/forms';			// forms: form, fieldset, legend, label, input, button, select, datalist, optgroup, option, textarea, keygen, output, progress, meter.
+@use 'base/edit';			// edits: ins, del.
+
+// 3. Sections, layout
+@use 'layout/main';			// html, body, main
+// @use 'layout/header';		// header, h1-h6
+// @use 'layout/navigation';	// nav
+@use 'navPrimary';			// nav
+@use 'navFooter';			// nav
+@use 'layout/aside';		// aside
+@use 'layout/footer';		// footer, address
+@use 'layout/section';		// section & article
+
+// 4. Components
+@use 'components/button';	// buttons: button, input, select, abbr, label.
+@use 'components/card';		// fieldset, dialog
+@use 'components/accordion';// details, summary, command, menu
+@use 'components/progress';	// progress bars
+@use 'components/dialog';	// dialog
+
+// https://www.w3.org/TR/2012/WD-html-markup-20121025/elements-by-function.html
