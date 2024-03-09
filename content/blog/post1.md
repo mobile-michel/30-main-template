@@ -1,8 +1,6 @@
 ---
 title: Blog
 description: Create a blog with collections & pagination
-layout: default
-tags: blog
 date: 2024-02-02
 ---
 ## Pagination et navigation d'une page à l'autre

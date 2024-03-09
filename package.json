@@ -1,13 +1,13 @@
 {
     "name": "30-main-template",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Anything that can compose a website template with Eleventy, Liquid & Sass processing.",
     "main": "eleventy.config.js",
     "scripts": {
         "watch:eleventy": "npx @11ty/eleventy --serve",
-        "watch:sass": "npx sass src/sass:_site/assets/css --watch",
+        "watch:sass": "npx sass sass:_site/assets/css --watch",
         "start": "npm run watch:eleventy & npm run watch:sass",
-        "build": "sass src/sass:_site/assets/css --style=compressed && eleventy",
+        "build": "sass sass:_site/assets/css --style=compressed && eleventy",
         "debug": "DEBUG=* eleventy"
     },
     "keywords": [

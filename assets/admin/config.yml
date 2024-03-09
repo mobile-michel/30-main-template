@@ -1,23 +1,24 @@
 backend: # Required
   name: git-gateway
   branch: main
-media_folder: "assets/images/" # Required
-public_folder: "images/" # Required
+media_folder: "assets/img/" # Required
+public_folder: "assets/img/" # Required
 collections: # Required
   - name: "blog" # Required. Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Required. Used in the UI
-    folder: "src/blog" # Required. The path to the folder where the documents are stored
+    folder: "content/blog" # Required. The path to the folder where the documents are stored
     create: true # Important. Allow users to create new documents in this collection
     fields: # Required. The fields for each document, usually in front matter
       - {name: "title"} # Required
       - {name: "description"}
+      - {name: "date"}
       - {name: "body"} # Required
   - name: "settings"
     label: "Settings"
     files:
       - name: "settings"
         label: "Meta Settings"
-        file: "src/_data/site.json"
+        file: "_data/site.json"
         fields:
           - { label: Name, name: name, widget: string }
           - { label: Description, name: description, widget: string }
