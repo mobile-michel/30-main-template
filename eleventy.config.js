@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
             input: "content", // Set the source for 11ty
             layouts: "../_layouts", // Base page layouts
             includes: "../_includes", // All UI partials
-            data: "../_data", // All UI partials
+            data: "../_data", // JSON datasets
             output: "_site" // This is the default
         }
     }
