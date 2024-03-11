@@ -50,7 +50,8 @@ module.exports = function (eleventyConfig) {
             includes: "../_includes", // All UI partials
             data: "../_data", // JSON datasets
             output: "_site" // This is the default
-        }
-    }
-}
+        },
+        templateFormats: ["html", "md", "liquid"]
+    };
+};
 ```
