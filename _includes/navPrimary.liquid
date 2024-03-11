@@ -1,8 +1,8 @@
 <nav aria-label="Primary">
   <ul>
     {% for nav in collections.primary %}
-    <li {% if page.url==nav.url %}aria-current="page" {% endif %}>
-      <a href="{{ nav.url }}">{{ nav.data.title }}</a>
+    <li>
+      <a {% if page.url==nav.url %}aria-current="page" {% endif %} href="{{ nav.url }}">{{ nav.data.title }}</a>
     </li>
     {% endfor %}
   </ul>

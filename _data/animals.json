@@ -1,0 +1,114 @@
+[
+    {
+        "english": "lion",
+        "latin": "panthera leo",
+        "french": "lion",
+        "family": "big five",
+        "description": "it is estimated that there are close to 850 to 900 Lions in the Masai Mara National Reserve and surrounding conservancies that border the reserve. The 'Mara' as it is also known is generally considered one of the best places in Kenya and East Africa to see these magnificent animals in the wild on a Safari. Individual Lions (males) can hold huge territories ranging from 30 to 400 square kilometers. The lionesses (females) take the lead when it comes to hunting down the prey. From time to time the Males will assist with a hunt. Read more about Masai Mara Lions in detail at this page.",
+        "photo": "/assets/img/big-nine/lion-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "elephant",
+        "latin": "loxodonta africana",
+        "french": "éléphant",
+        "family": "big five",
+        "description": "one of the most prolific animals in the Mara, the African Elephant is an intelligent, sociable and familial animal, and despite the threat it attracts due to its Ivory, the great news is that numbers are up in Masai Mara over the last couple of years. African Elephants are the world's largest land animals, weighing up to (6.6 tons). Read more about the African Elephant in Masai Mara in detail at this page.",
+        "photo": "/assets/img/big-nine/elephants-masai-mara.jpg"
+    },
+    {
+        "english": "rhino",
+        "latin": "rhinocerotidae",
+        "french": "rhinocéros",
+        "family": "big five",
+        "description": "Masai Mara is home to Black Rhino, the slightly smaller but more aggresive species compared to White Rhino which is more commonly found at Lake Nakuru. Rhinocerous is the proper name for the Rhino, and this animal is one of any five extant species of odd-toed ungulates in the family Rhinocerotidae, as well as any of the numerous extinct species. Black rhinos are smaller than white rhinos, and there is actually no colour difference between them at all. Black rhinos use their horns during mating and fighting, as well as when defending themselves from predators. They also use their hooked lip to browse shrubs and prefer thick bush habitat. Read more about Black Rhinos in Masai Mara in detail at this page.",
+        "photo": "/assets/img/big-nine/Rhino-Wildlife.jpg"
+    },
+    {
+        "english": "leopard",
+        "latin": "panthera pardus",
+        "french": "léopard",
+        "family": "big five",
+        "description": "the Leopard (Panthera Pardus) is counted as one of the Big Cats and is one of the five species in the genus Panthera. Though Leopards can be found in Masai Mara in healthy numbers and in some other parks in Kenya as well, these elusive animals are nonetheless listed as vulnerable on the IUCN Red List because leopard populations are threatened by human encroachment and habitat loss. Leopards almost always hunt on their own and are by nature 'shy', preferring to hunt at night.",
+        "photo": "/assets/img/big-nine/leopard-wildlife.jpg"
+    },
+    {
+        "english": "african buffalo",
+        "latin": "syncerus caffer",
+        "french": "buffalo africain",
+        "family": "big five",
+        "description": "also known as the Cape Buffalo, these large bovines are regarded as one of the more dangerous animals in East Africa not least due to their volatile and unpredictable nature, which is one of the reasons the African Buffalo has never been domesticated as is the case in Asia. Females protecting their young calves, and solitary rogue bulls, are the most aggressive, and having 800kg of angry animal is no joke.Both sexes have the distinctive curving horns which broaden and almost meet over the forehead, although those in females are fairly smaller. Buffalo are often found in herds of 100 or more and never stray too far from water, especially in dry season. These animals appears in great numbers in all major parks, with the exception of Nairobi National Park. They can also be found in large numbers in Masai Mara National Game Reserve.",
+        "photo": "/assets/img/big-nine/african-buffalo-wildlife.jpg"
+    },
+    {
+        "english": "cheetah",
+        "latin": "acinonyx jubantus",
+        "french": "panthère",
+        "family": "big nine",
+        "description": "also known as the Cape Buffalo, these large bovines are regarded as one of the more dangerous animals in East Africa not least due to their volatile and unpredictable nature, which is one of the reasons the African Buffalo has never been domesticated as is the case in Asia. Females protecting their young calves, and solitary rogue bulls, are the most aggressive, and having 800kg of angry animal is no joke.Both sexes have the distinctive curving horns which broaden and almost meet over the forehead, although those in females are fairly smaller. Buffalo are often found in herds of 100 or more and never stray too far from water, especially in dry season. These animals appears in great numbers in all major parks, with the exception of Nairobi National Park. They can also be found in large numbers in Masai Mara National Game Reserve.",
+        "photo": "/assets/img/big-nine/cheetah%20in%20masai%20mara.jpeg"
+    },
+    {
+        "english": "giraffe",
+        "latin": "giraffa",
+        "french": "girafe",
+        "family": "big nine",
+        "description": "giraffe are the tallest living terrestrial animals and actually quite a sight, extremely picturesque and known for their graceful movements even when running at their fastest speed of 50 to 60 km per hour. There are two main sub species of Giraffe found in Kenya, the Reticulated or Somali Giraffe in Northern Kenya, and the Maasai Giraffe in southern Kenya including Masai Mara. It is estimated that close to 33,000 Maasai giraffe are alive in the wild in Kenya. Read more about Masai Giraffe in detail at this page.",
+        "photo": "/assets/img/big-nine/giraffe-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "hippo",
+        "latin": "hippopotamus amphibius",
+        "french": "hippopotame",
+        "family": "big nine",
+        "description": "the Hippopotamus, commonly referred to as Hippo are the third largest land mammal with the average adult males weighing in at close to 1500 kilos. Hippos typically inhabit swamps, rivers, and areas close to the lake shore, and remain cool by staying in the water during most of the day. They are found in greatest numbers in Masai Mara National Game Reserve but can also be seen at Amboseli, Nairobi and Tsavo National Parks as well as Lake Baringo.",
+        "photo": "/assets/img/big-nine/hippo-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "zebra",
+        "latin": "equus quagg",
+        "french": "zèbre",
+        "family": "big nine",
+        "description": "one of the wild animals that most people would always associate with East Africa, Zebras are present in Masai Mara and Kenya generally in large numbers. There are 2 sub species, namely the Plains Zebra, Mountain Zebra and Grevys Zebra. Masai Mara is home to the plains Zebra while the Grevy's Zebra with their unique thinner stripes are found in Samburu Reserve, Northern Kenya.",
+        "photo": "/assets/img/big-nine/zebra-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "aardvark",
+        "latin": "orycteropus afer",
+        "french": "oryctérope",
+        "family": "mammals",
+        "description": "the Aardvark is a small to medium sized burrowing mammal with a long snout and powerful claws, native to Africa. Aardvarks are nocturnal animals and feed on insects, mainly ants and termites. They have a hairless body with a pronounced arched back and short legs. The thick claws on the forefeet are well adapted for burrowing and digging.",
+        "photo": "/assets/img/mammals/aardvark-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "aardwolf",
+        "latin": "proteles cristatus",
+        "french": "protèle",
+        "family": "mammals",
+        "description": "aardwolf is an insectivorous carnivore, native to East and Southern Africa. Its name means 'earth wolf' in Afrikaans. It is yellowish with vertical black stripes and a bushy black-tipped tail and resembles a small striped hyena. Like the hyena, it has a long coarse ridge of erectile hairs along the length of the back, sturdy shoulders, and longer front than hind legs. However, Aardwolf is less of a runner and has five toes on the front feet instead of four. Aardwolves are found on the open, grassy plains of east and south Africa. They are solitary and they rest in burrows during the day before becoming active at night. Their territory is between 1 and 4 square kilometres, depending on food availability, and they mark it with urine, dung and secretions from their anal glands.",
+        "photo": "/assets/img/mammals/aardwolf-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "african Hare",
+        "latin": "lepus capensis",
+        "french": "lièvre d'Afrique",
+        "family": "mammals",
+        "description": "African hares are commonly found in grasslands and wooded savannas throughout in Africa. They live mainly solitary lives, though they sometimes form groups of two or three when eating and use their senses of hearing, smell, and sight to avoid predators. African hares are 20 inches long, weighs between 1.5 to 3 kilograms (3.3 to 6.6 lb) and feeds on leaves, buds, roots, berries, fungi, bark and twigs. African hares are generally present in Masai Mara National Reserve. The life span of the African hare is 12 years.",
+        "photo": "/assets/img/mammals/african-hare-wildlife.jpg"
+    },
+    {
+        "english": "antelope",
+        "latin": "alcelaphinae",
+        "french": "antilope",
+        "family": "mammals",
+        "description": "One of the wild animals that most people would always associate with East Africa, Antelopes are present in Masai Mara and Kenya generally in large numbers. There are 3 sub species, namely the Kirk's Dik-Dik, klipspringer, and Oribi Antelope. Antelope are found on arid regions with bush or scrub cover and come in a variety of sizes and show true diversity and imagination with their head gear. They’re the unsung beauties of the bush and the grassland.",
+        "photo": "/assets/img/mammals/antelope-masai-mara-wildlife.jpg"
+    },
+    {
+        "english": "banded mongoose",
+        "latin": "mungos mungo",
+        "french": "mangouste baguée",
+        "family": "mammals",
+        "description": "Banded mongoose is a mongoose commonly found in the central and eastern parts of Africa. It lives in savannas, open forests and grasslands and feeds primarily on beetles and millipedes. Mongooses use various types of dens for shelter including termite mounds and they live in colonies with a complex social structure. They are brown or grey in colour and are easily identifiable by the dark bands across the back which stretch from shoulder to the tail. The animal is about 40 cm in length and weighs btween 1.3 to 2.3 kg. They are commonly seen in groups in Tsavo, Amboseli and Masai Mara reserves.",
+        "photo": "/assets/img/mammals/banded-mongoose-masai-mara-wildlife.jpg"
+    }
+]

@@ -1,0 +1,20 @@
+---
+title: Animals
+description: Animals that live in the Masai Mara reserve
+layout: default
+tags: primary
+site:
+    css: mystyle.css
+---
+{% assign animal = animals | map: 'family' | uniq %}
+{% for header in animal %}
+<h2>{{header | capitalize}}</h2>
+{% assign item = animals | where: 'family', header %}
+    {% for list in item %}
+    <div class="notice">
+        <img src="{{list.photo}}" alt="{{list.french}}"><strong>{{list.english | capitalize}}</strong>: {{list.description}}
+    </div>
+    {% endfor %}
+{% endfor %}
+
+<p><a href="https://www.masaimara.travel/animals-wildlife.php">Masai Mara Travel</a></p>
