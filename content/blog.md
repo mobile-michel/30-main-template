@@ -5,7 +5,7 @@ layout: default
 tags: [primary, footer]
 aside: blog
 secondary: true
-date: 2024-01-03
+date: 2024-01-05
 ---
 Without any media queries, that will set up a grid container that has a flexible number of columns. The columns will stretch a little, until there is enough room for another one, and then a new column is added, and in reverse.
 

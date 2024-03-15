@@ -1,7 +1,7 @@
 [
     {
         "id": "blog",
-        "text": "Some text here"
+        "text": "Some text here relative to the blog"
     },
     {
         "id": "animals",
