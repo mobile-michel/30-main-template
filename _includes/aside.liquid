@@ -1,0 +1,8 @@
+<aside>
+    <h2>Some relative content</h2>
+    {% for i in content-text %}
+    {% if i.id == aside %}
+    <p>{{ i.text }}</p>
+    {% endif %}
+    {% endfor %}
+</aside>

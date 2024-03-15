@@ -1,24 +1,28 @@
 ---
 layout: base
 ---
-<header role="banner">
+<header>
     {% include 'navPrimary' %}
-    {% include 'searchSite' %}
     <h1>Company Name</h1>
 </header>
 <main>
-    {% if aside %}
-    <aside role="complementary">
+    {% if secondary %}
+    <aside>
         {% include 'navSecondary' %}
     </aside>
     {% endif %}
-    <section aria-labelledby="{{ title }}">
-        <h2 id="{{ title }}">{{ title }}</h2>
-        {% if description %}<p>{{ description }}</p>{% endif %}
-        {{ content }}
-    </section>
+    <div>
+        <section aria-labelledby="{{ title | remove: ' ' }}">
+            <h2 id="{{ title | remove: ' ' }}">{{ title }}</h2>
+            {% if description %}<p>{{ description }}</p>{% endif %}
+            {{ content }}
+        </section>
+        {% if aside %}
+        {% include 'aside' %}
+        {% endif %}
+    </div>
 </main>
-<footer role="contentinfo">
+<footer>
     {% include 'subscribe' %}
     {% include 'navFooter' %}
     {% include 'copyright' %}

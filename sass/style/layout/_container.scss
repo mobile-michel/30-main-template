@@ -1,0 +1,80 @@
+/**************************/
+/* Other HTML5 Containers */
+/**************************/
+
+// <html>, <body>, <article>, <header>, <footer>
+
+body {
+    margin: 0;
+    font-family: var(--font-text);
+    font-size: var(--font-size);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: var(--primarySurface);
+    border: 1px solid var(--primaryBorder);
+    padding: 1em;
+}
+
+main {
+    background-color: var(--neutralSurface);
+    border: 1px solid var(--neutralBorder);
+    display: flex;
+    flex-direction: column;
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    background-color: var(--tertiarySurface);
+    border: 1px solid var(--tertiaryBorder);
+    padding: 1em;
+}
+
+main>aside li {
+    list-style-type: none;
+}
+
+section {
+    padding: 1em;
+}
+
+footer {
+    background-color: var(--primarySurface);
+    border: 1px solid var(--primaryBorder);
+    padding: 1em;
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+
+    main>aside {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    main>div {
+        flex-direction: row;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    div>aside {
+        width: 30%;
+    }
+}

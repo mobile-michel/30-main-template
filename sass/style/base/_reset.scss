@@ -1,0 +1,15 @@
+/*********************/
+/* Reset & normalize */
+/*********************/
+
+// Remove all the margins and paddings from every element
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}

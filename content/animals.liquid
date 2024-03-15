@@ -3,8 +3,7 @@ title: Animals
 description: Animals that live in the Masai Mara reserve
 layout: default
 tags: primary
-site:
-    css: mystyle.css
+aside: animals
 ---
 {% assign animal = animals | map: 'family' | uniq %}
 {% for header in animal %}

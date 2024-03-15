@@ -1,0 +1,36 @@
+/*************/
+/* Variables */
+/*************/
+
+:root {
+    // Fonts
+    --font-text: #{$fontText};
+    --font-heading: #{$fontHeading};
+    --font-size: #{$fontSize}em;
+    // Colors
+    --neutralSurface: #{$neutral100};
+    --neutralBorder: #{$neutral600};
+    --contentDim: #{$neutral500};
+    --contentText: #{$neutral700};
+    --contentHeading: #{$neutral900};
+    --primarySurface: #{$primary100};
+    --primaryAccent: #{$primary300};
+    --primaryBorder: #{$primary500};
+    --secondarySurface: #{$secondary100};
+    --secondaryAccent: #{$secondary300};
+    --secondaryBorder: #{$secondary500};
+    --tertiarySurface: #{$tertiary100};
+    --tertiaryAccent: #{$tertiary300};
+    --tertiaryBorder: #{$tertiary500};
+    --successSurface: #{$success100};
+    --successAccent: #{$success300};
+    --successBorder: #{$success500};
+    --warningSurface: #{$warning100};
+    --warningAccent: #{$warning300};
+    --warningBorder: #{$warning500};
+    --errorSurface: #{$error100};
+    --errorAccent: #{$error300};
+    --errorBorder: #{$error500};
+    // Negative space
+    --padding: #{$space}em;
+}

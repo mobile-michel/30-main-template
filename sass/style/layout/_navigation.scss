@@ -1,0 +1,24 @@
+/*******************/
+/* Navigation Role */
+/*******************/
+
+/* <nav aria-label="Primary"> ****/
+/* <nav aria-label="Secondary"> **/
+/* <nav aria-label="Breadcrumb"> */
+/* <nav aria-label="Pagination"> */
+/* <nav aria-label="Footer"> *****/
+
+[aria-label="Primary"] ul, [aria-label="Footer"] ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[aria-label="Primary"] li, [aria-label="Footer"] li {
+    list-style: none;
+    padding: 0.5em;
+}
+
+[aria-label="Primary"] a {
+    text-decoration: none;
+    color: var(--primaryBorder);
+}
