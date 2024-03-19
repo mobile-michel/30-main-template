@@ -4,3 +4,10 @@
 
 // <img>, <picture>, <figure>, <figcaption>, <video>, <audio>.
 
+img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin: 0 0 1em 1em;
+  border: 1px solid #a8a8a8;
+}

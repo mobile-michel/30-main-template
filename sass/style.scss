@@ -4,36 +4,36 @@
 /************************************/
 
 @import 'configure';                  // configure font, color, spacing, etc.
-@import 'style/abstract/fonts';       // font-faces.
-@import 'style/abstract/oklch';       // oklch color functions.
-@import 'style/abstract/swatches';    // all color swatches.
-@import 'style/abstract/color-scheme';// temporary color scheme to visualize color swatches.
-@import 'style/abstract/variables';   // custom properties.
-@import 'style/base/block';           // block-level text elements, hr.
-@import 'style/base/code';            // pre, code, kbd, samp, var.
-@import 'style/base/form';            // form, fieldset, legend, label, input, textarea, select, optgroup, option.
-@import 'style/base/graphic';         // svg, canvas.
-@import 'style/base/inline';          // inline-level text elements: mark, strong, cite.
-@import 'style/base/link';            // a, area, link, visited, hover, active, focus.
-@import 'style/base/list';            // ul, ol, li, dl, dt, dd.
-@import 'style/base/media';           // img, picture, figure, figcaption, video, audio.
-@import 'style/base/reset';           // reset, normalize.
-@import 'style/base/table';           // table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th.
-@import 'style/layout/container';     // html, body, article, header, footer.
-@import 'style/layout/grid';          // div [role=grid]
-@import 'style/layout/banner';        // body>header
-@import 'style/layout/navigation';    // nav
-@import 'style/layout/main';          // body>main
-@import 'style/layout/region';        // section
-@import 'style/layout/form';          // form, role="search".
-@import 'style/layout/complementary'; // aside
-@import 'style/layout/contentinfo';   // body>footer
-@import 'style/layout/heading';       // h1-h6, hgroup.
-@import 'style/components/accordion'; // details>summary
-@import 'style/components/button';    // button, role="button".
-@import 'style/components/tooltip';   // abbr[title], role="tooltip", data-tooltip.
-@import 'style/components/card';      // article, role="article".
-@import 'style/components/modal';     // dialog, button, role="dialog".
-@import 'style/components/loading';   // role="menu", aria-busy="true".
-@import 'style/components/progress';  // progress, role="progressbar".
+@import 'abstract/fonts';       // font-faces.
+@import 'abstract/oklch';       // oklch color functions.
+@import 'abstract/swatches';    // all color swatches.
+@import 'abstract/color-scheme';// temporary color scheme to visualize color swatches.
+@import 'abstract/variables';   // custom properties.
+@import 'base/block';           // block-level text elements, hr.
+@import 'base/code';            // pre, code, kbd, samp, var.
+@import 'base/form';            // form, fieldset, legend, label, input, textarea, select, optgroup.
+@import 'base/graphic';         // svg, canvas.
+@import 'base/inline';          // inline-level text elements: mark, strong, cite.
+@import 'base/link';            // a, area, link, visited, hover, active, focus.
+@import 'base/list';            // ul, ol, li, dl, dt, dd.
+@import 'base/media';           // img, picture, figure, figcaption, video, audio.
+@import 'base/reset';           // reset, normalize.
+@import 'base/table';           // table, caption, colgroup, col, thead, tbody, tfoot, tr, td, th.
+@import 'layout/container';     // html, body, article, header, footer.
+@import 'layout/grid';          // div [role=grid]
+@import 'layout/banner';        // body>header
+@import 'layout/navigation';    // nav
+@import 'layout/main';          // body>main
+@import 'layout/region';        // section
+@import 'layout/form';          // form, role="search".
+@import 'layout/complementary'; // aside
+@import 'layout/contentinfo';   // body>footer
+@import 'layout/heading';       // h1-h6, hgroup.
+@import 'components/accordion'; // details>summary
+@import 'components/button';    // button, role="button".
+@import 'components/tooltip';   // abbr[title], role="tooltip", data-tooltip.
+@import 'components/card';      // article, role="article".
+@import 'components/modal';     // dialog, button, role="dialog".
+@import 'components/loading';   // role="menu", aria-busy="true".
+@import 'components/progress';  // progress, role="progressbar".
 

@@ -8,6 +8,8 @@ body {
     margin: 0;
     font-family: var(--font-text);
     font-size: var(--font-size);
+    color: var(contentText);
+    line-height: var(--padding);
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -17,6 +19,7 @@ header {
     background-color: var(--primarySurface);
     border: 1px solid var(--primaryBorder);
     padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 main {
@@ -66,6 +69,7 @@ footer {
         max-width: 1280px;
         margin: 0 auto;
     }
+
     main>div {
         flex-direction: row;
     }
