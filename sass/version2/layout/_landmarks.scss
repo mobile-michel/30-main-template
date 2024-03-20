@@ -1,0 +1,42 @@
+/**************************/
+/* Other HTML5 Containers */
+/**************************/
+
+// <html>, <body>, <article>, <header>, <footer>
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main,
+footer {
+    max-width: 60em;
+    margin: auto;
+}
+
+section {
+    flex: 1 0 25em;
+}
+
+aside:first-child {
+    flex: 0 0 10em;
+}
+
+aside:last-child {
+    flex: 0 0 15em;
+}
+
+footer {
+    border-top: 1px solid;
+}

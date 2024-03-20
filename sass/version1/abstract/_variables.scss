@@ -1,6 +1,8 @@
+@use "sass:math";
 /*************/
 /* Variables */
 /*************/
+$padding: 1 * $space;
 
 :root {
     // Fonts
@@ -33,5 +35,5 @@
     --errorBorder: #{$error500};
     --boxShadow: (0, 0, 0, 0.24) 0px 3px 8px;
     // Negative space
-    --padding: #{$space}em;
+    --padding: #{$padding}em;
 }

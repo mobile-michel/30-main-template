@@ -6,21 +6,19 @@ layout: base
     <h1>Company Name</h1>
 </header>
 <main>
-    {% if secondary %}
+    {% if collections.secondary %}
     <aside>
         {% include 'navSecondary' %}
     </aside>
     {% endif %}
-    <div>
-        <section aria-labelledby="{{ title | remove: ' ' }}">
-            <h2 id="{{ title | remove: ' ' }}">{{ title }}</h2>
-            {% if description %}<p>{{ description }}</p>{% endif %}
-            {{ content }}
-        </section>
-        {% if aside %}
-        {% include 'aside' %}
-        {% endif %}
-    </div>
+    <section aria-labelledby="{{ title | remove: ' ' }}">
+        <h2 id="{{ title | remove: ' ' }}">{{ title }}</h2>
+        {% if description %}<p>{{ description }}</p>{% endif %}
+        {{ content }}
+    </section>
+    {% if aside %}
+    {% include 'aside' %}
+    {% endif %}
 </main>
 <footer>
     {% include 'subscribe' %}

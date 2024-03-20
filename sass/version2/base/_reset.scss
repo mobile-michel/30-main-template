@@ -1,0 +1,54 @@
+/*********************/
+/* Reset & normalize */
+/*********************/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: $space;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: $font-text;
+    font-size: clamp(1rem, $font-size, 3rem);
+}
+
+img,
+picture {
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+nav {
+
+    ul,
+    ol {
+        list-style: none;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}

@@ -1,0 +1,17 @@
+$font-text: 'Roboto' !default;
+$font-heading: 'Oswald' !default;
+
+@if $font-combination == 1 {
+    $font-text: 'Roboto';
+    $font-heading: 'Roboto Condensed';
+} @else if $font-combination== 2 {
+    $font-text: 'Montserrat';
+    $font-heading: 'Barlow Condensed';
+} @else if $font-combination == 3 {
+    $font-text: 'Source Serif 4';
+    $font-heading: 'Oswald';
+} @else if $font-combination == 4 {
+    $font-text: 'Alegreya';
+    $font-heading: 'Alegreya SC';
+}
+$font-size: 1rem * $fontSize !default;
