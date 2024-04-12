@@ -11,8 +11,8 @@ layout: base
         {% include 'navSecondary' %}
     </aside>
     {% endif %}
-    <section aria-labelledby="{{ title | remove: ' ' }}">
-        <h2 id="{{ title | remove: ' ' }}">{{ title }}</h2>
+    <section aria-labelledby="{{ title | slugify }}">
+        <h2 id="{{ title | slugify }}">{{ title }}</h2>
         {% if description %}<p>{{ description }}</p>{% endif %}
         {{ content }}
     </section>

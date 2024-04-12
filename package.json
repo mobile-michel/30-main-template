@@ -7,7 +7,7 @@
         "watch:eleventy": "npx @11ty/eleventy --serve",
         "watch:sass": "npx sass sass:_site/assets/css --watch",
         "start": "npm run watch:eleventy & npm run watch:sass",
-        "build": "sass sass:_site/assets/css --style=compressed && eleventy",
+        "build": "sass sass:_site/assets/css --style=compressed && eleventy --pathprefix '30-main-template'",
         "debug": "DEBUG=* eleventy"
     },
     "keywords": [

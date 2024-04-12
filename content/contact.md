@@ -5,6 +5,6 @@ layout: default
 tags: secondary
 date: 2024-01-04
 site:
-    css: style-v2.css
+    css: /assets/css/style-v2.css
 ---
 Title tags: {{ collections.primary[3].data.title }}
